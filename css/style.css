@@ -5,6 +5,7 @@
 @import url("sobre.css");
 @import url("servicos.css");
 @import url("portfolio.css");
+@import url("contato.css");
 
 * {
     margin: 0;
