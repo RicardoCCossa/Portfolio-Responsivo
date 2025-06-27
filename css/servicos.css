@@ -38,3 +38,15 @@
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+
+@media(max-width: 768px) {
+    .servicos h2 {
+        margin-bottom: 3rem;
+    }
+}
+
+@media(max-width: 991px) {
+    .servicos {
+        padding-bottom: 7rem;
+    }
+}
