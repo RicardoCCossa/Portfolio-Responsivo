@@ -73,3 +73,9 @@ span {
 .btn:hover {
     box-shadow: none;
 }
+
+@media(max-width: 365px) {
+    .inicio-img  img {
+        width: 90vw;
+    }
+}

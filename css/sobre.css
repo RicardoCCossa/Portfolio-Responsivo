@@ -35,3 +35,9 @@
         margin-top: 4rem;
     }
 }
+
+@media(max-width: 365px) {
+    .sobre-img  img {
+        width: 90vw;
+    }
+}

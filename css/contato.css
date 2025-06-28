@@ -38,3 +38,15 @@
     margin-top: 2rem;
     cursor: pointer;
 }
+
+@media(max-width: 991px) {
+    .contato {
+        min-height: auto;
+    }
+}
+
+@media(max-width: 450px) {
+    .contato form .input-box input {
+        width: 100%;
+    }
+}
