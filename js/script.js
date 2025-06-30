@@ -34,3 +34,25 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
+/*================ scroll reveal ================= */
+ScrollReveal({ 
+    //reset: true,
+    distance: '80px',
+    duration: 4000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.inicio-content, .heading', { origin: 'bottom' });
+ScrollReveal().reveal('.inicio-img, .servicos-container, .portfolio-box, .contato form', { origin: 'top' });
+ScrollReveal().reveal('.inicio-content h1, .sobre-img', { origin: 'left' });
+ScrollReveal().reveal('.inicio-content p, .sobre-content', { origin: 'right' });
+
+
+/*================ typed js ================= */
+const typed = new Typed('.multiple-text', {
+    strings: ['Desenvolvimento Web', 'Suporte Técnico', 'Redes e Infraestrutura'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});

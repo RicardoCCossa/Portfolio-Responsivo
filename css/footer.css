@@ -30,7 +30,7 @@
     color: var(--second-bg-color);
 }
 
-@media(max-width: 365px) {
+@media(max-width: 724px) {
    .footer {
     flex-direction: column-reverse;
    }

@@ -25,6 +25,10 @@
     margin: 2rem 0 3rem;
 }
 
+.sobre-img img {
+    width: 35vh;
+}
+
 @media(max-width: 768px) {
     .sobre {
         flex-direction: column-reverse;
